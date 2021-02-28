@@ -1,0 +1,39 @@
+ul li:nth-child(3) {
+    color: red;
+}
+
+ul li:nth-child(4) {
+    color: red;
+}
+
+ol li:nth-child(even){
+    font-size: 24px;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+div:nth-of-type(2){
+    color: white;
+}
+
+div p:first-child{
+    font-style: italic;
+}
+
+button{
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+button:active{
+    height: 150px;
+    width: 200px;
+border-radius: 0;
+}
